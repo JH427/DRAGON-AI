@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dragon_ai"
+version = "0.1.0"
+description = "dragon_ai using crewAI"
+authors = ["Joshua Harper <joshua@hellointernet.lol>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.1" }
+
+[tool.poetry.scripts]
+dragon_ai = "dragon_ai.main:run"
+train = "dragon_ai.main:train"
+replay = "dragon_ai.main:replay"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

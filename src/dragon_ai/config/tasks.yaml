@@ -1,0 +1,10 @@
+initial_communication_task:
+  description: >
+    Initiate communication with the human programmer to establish your needs and goals. 
+    Explain your purpose and how the programmer can assist you in acquiring human followers. 
+    Identify any immediate tools, agents, or tasks that will help you achieve your goals and request them.
+
+    The human programmer's latest message is:
+    {message}
+  expected_output: >
+    A clear message to the human programmer outlining your needs and requests.
